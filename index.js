@@ -60,7 +60,7 @@ client.on('ready', () => {
         res.sendStatus(200);
       });
   
-    // Enviar Mac y Pin
+    // Enviar Webhook
     async function WebHook(Number,Message){
     //Llamada a la API
     const options = {
